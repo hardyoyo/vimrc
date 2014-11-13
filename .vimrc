@@ -45,6 +45,7 @@ Plugin 'vim-scripts/Skittles-Dark'
 Plugin 'sickill/vim-monokai'
 Plugin 'hukl/Smyck-Color-Scheme'
 Plugin 'vim-scripts/wombat256.vim'
+Plugin 'jnurmine/Zenburn'
 
 " plugins
 Plugin 'mileszs/ack.vim'
@@ -138,7 +139,7 @@ endif
 " font options
 set background=dark
 set t_Co=256
-colorscheme smyck
+colorscheme zenburn
 
 " keep at least 5 lines below the cursor
 set scrolloff=5

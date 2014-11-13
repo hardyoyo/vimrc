@@ -63,6 +63,7 @@ Plugin 'michaeljsmith/vim-indent-object'
 Plugin 'gregsexton/gitv'
 Plugin 'bling/vim-airline'
 Plugin 'wincent/Command-T'
+Plugin 'scrooloose/syntastic'
 
 " syntax files
 Plugin 'pangloss/vim-javascript'

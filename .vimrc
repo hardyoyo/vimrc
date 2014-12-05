@@ -64,6 +64,7 @@ Plugin 'gregsexton/gitv'
 Plugin 'bling/vim-airline'
 Plugin 'wincent/Command-T'
 Plugin 'scrooloose/syntastic'
+Plugin 'KabbAmine/zeavim.vim'
 
 " syntax files
 Plugin 'pangloss/vim-javascript'
@@ -223,3 +224,10 @@ function! ToggleMouse()
     endif
 endfunction
 nnoremap <leader>m :call ToggleMouse()<CR>
+
+" LogPad stuff
+
+let LogpadEnabled=1
+let LogpadInsert=0
+let LogpadLineBreak=0
+let LogpadIgnoreNotes = 1

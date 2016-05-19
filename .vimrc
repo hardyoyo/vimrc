@@ -48,6 +48,7 @@ Plugin 'vim-scripts/wombat256.vim'
 Plugin 'jnurmine/Zenburn'
 
 " plugins
+Plugin 'idbrii/AsyncCommand'
 Plugin 'mileszs/ack.vim'
 Plugin 'kien/ctrlp.vim'
 Plugin 'scrooloose/nerdtree'
@@ -56,6 +57,7 @@ Plugin 'jistr/vim-nerdtree-tabs'
 Plugin 'tpope/vim-repeat'
 Plugin 'tpope/vim-surround'
 Plugin 'tomtom/tcomment_vim'
+Plugin 'tomtom/checksyntax_vim'
 Plugin 'vim-scripts/trailing-whitespace'
 Plugin 'vim-scripts/taglist.vim'
 Plugin 'terryma/vim-multiple-cursors'
@@ -65,6 +67,10 @@ Plugin 'bling/vim-airline'
 Plugin 'wincent/Command-T'
 Plugin 'scrooloose/syntastic'
 Plugin 'KabbAmine/zeavim.vim'
+Plugin 'itchyny/calendar.vim'
+Plugin 'airblade/vim-gitgutter'
+Plugin 'sotte/presenting.vim'
+Plugin 'yggdroot/indentline'
 
 " syntax files
 Plugin 'pangloss/vim-javascript'
@@ -93,6 +99,9 @@ let g:airline#extensions#tabline#enabled = 1
 
 " coffeescript config
 hi link coffeeSpaceError NONE
+
+" use higher-contrast zenburn
+let g:zenburn_high_Contrast=1
 
 " syntax highlighting and auto-indentation
 syntax on
@@ -231,3 +240,12 @@ let LogpadEnabled=1
 let LogpadInsert=0
 let LogpadLineBreak=0
 let LogpadIgnoreNotes = 1
+
+" set the title
+set title
+set titleold=""
+set titlestring=VIM:\ %F
+
+" Indentline config
+let g:indentLine_color_term = 239
+

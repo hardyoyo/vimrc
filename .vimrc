@@ -150,7 +150,7 @@ endif
 " font options
 set background=dark
 set t_Co=256
-colorscheme zenburn
+"colorscheme zenburn
 
 " keep at least 5 lines below the cursor
 set scrolloff=5
